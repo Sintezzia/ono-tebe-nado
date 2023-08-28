@@ -1,1 +1,114 @@
-/* место для вашего кода */
+body {
+  background-color: #585858;
+  font-weight: 400;
+}
+
+.content-section {
+  box-sizing: border-box;
+  max-width: 1440px;
+  min-height: 100px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.header {
+  padding: 92px 50px;
+  flex-grow: 0;
+}
+
+.grid-container-header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.header__logo {
+  display: flex;
+  justify-self: center;
+}
+
+.header__logo-image {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.header__menu{
+  display: flex;
+  align-self: flex-start;
+  padding-top: 43px;  /* отступы по макету */
+  padding-bottom: 45px;  /* отступы по макету */
+}
+
+.header__link {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid #000;  /* подчеркивание с помощью границы */
+}
+
+.header__links-list{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.header__links-list-item {
+  list-style: circle;
+}
+
+.header__link_active .header__link{
+  text-decoration: none;
+  border-bottom: none; /* убирает границу у активного элемента */
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none; /* убирает кружок у первого элемента */
+}
+
+.address {
+  width: 240px;
+  display: flex;
+  align-self: center;
+  justify-self: end;
+  padding: 5px auto 7px;
+}
+
+.border-bottom-address {
+  text-decoration: none;
+  border-bottom: 1px solid #000;  /* подчеркивание с помощью границы */ 
+}
+
+.address-list {
+
+}
+
+.address-list-item {
+  list-style: none;
+}
+
+.address-list-item-contats {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+  font-style: normal;
+}
+
+.cover {
+}
+
+.lots {
+  padding: 180px 50px 181px;
+}
+
+.about {
+  padding: 0 50px 180px;
+}
+
+.footer {
+padding: 0 50px 90px;
+}
