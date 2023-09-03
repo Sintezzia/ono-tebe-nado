@@ -1,0 +1,25 @@
+[33mcommit c070af3617ec1ecd905e85a77f2f0954cdfed87a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Vladislav Zilberberg <vladzilberberg@gmail.com>
+Date:   Thu Aug 31 01:57:13 2023 +0500
+
+    создание входной секции
+
+[33mcommit 6b5e14372d059b656b13ca7a106ddf4d79eba586[m
+Author: Vladislav Zilberberg <vladzilberberg@gmail.com>
+Date:   Tue Aug 29 02:14:01 2023 +0500
+
+    создание шапки страницы
+
+[33mcommit 5c13ff226e44c30b8eb128b27de15b970e9fdb69[m
+Author: Sintezzia <142801332+Sintezzia@users.noreply.github.com>
+Date:   Mon Aug 28 22:00:57 2023 +0500
+
+    Create README.md
+    
+    add file readme.md
+
+[33mcommit e7304317ddef35fbd8ef393a44d7dc906939a118[m
+Author: Sintezzia <142801332+Sintezzia@users.noreply.github.com>
+Date:   Mon Aug 28 21:52:07 2023 +0500
+
+    Initial commit
