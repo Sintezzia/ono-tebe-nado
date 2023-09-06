@@ -1,6 +1,5 @@
 .body {
   font-weight: 400;
-  background-color: #585858;
 }
 
 :link:hover {
@@ -192,18 +191,7 @@
 
 .bet-button {
   margin-left: 78px;
-  border: 1px solid #fff;
   padding: 12px 32px;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.bet-button:hover {
-  transition: background-color .3s ease;
-  background-color: rgba(255, 255, 255, .2);
-}
-
-.bet-button-text {
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -212,6 +200,14 @@
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  border: 1px solid #fff;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.bet-button:hover {
+  transition: background-color .3s ease;
+  background-color: rgba(255, 255, 255, .2);
 }
 
 .lots {
@@ -249,11 +245,14 @@
 }
 
 .card {
+  padding: 50px 40px;
+  min-height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 450px;
-  padding: 50px 40px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card_type_film {
@@ -268,12 +267,6 @@
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.card_type-image {
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .card::before {
   content: "";
   position: absolute;
@@ -284,7 +277,7 @@
   background-color: rgba(0, 0, 0, .6);
 }
 
-.card_type-image:hover::before {
+.card-link .card:hover::before {
   position: absolute;
   transition: background-color .3s ease;
   background-color: rgba(0, 0, 0, .7);
